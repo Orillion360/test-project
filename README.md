@@ -18,3 +18,20 @@ The evaluation project is to build a web application (preferrably using the [Exp
 4. Provide the ability to search for a specific player and view a detailed list of the operations submitted by that player, including the type of operation, timestamp, block number, and transaction ID
 5. Anything else you want to add!
  
+
+# Solution
+
+## Setup
+1. Run `npm install`
+2. Run `npm start`
+
+## Project
+
+1. [index.html](http://localhost:3000/index.html) Under `Operations`.
+2. [index.html](http://localhost:3000/index.html) Under `Players`.
+3. [index.html](http://localhost:3000/index.html) Press the `Refresh` button under the respective list names.
+4. [index.html](http://localhost:3000/index.html) Has a search bar on top where you can fill in a player id.
+5. Added a live-update checkbox under each list which listens on a websocket to update that particular list.
+
+_Notes_:
+I set the node engine to 9 or higher due to it requireing some features of ES6. (Map and getter/setter syntax).

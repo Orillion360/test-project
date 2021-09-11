@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splinterlands Index</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form method="GET" action="search.html">
+        <input type="text" name="q" />
+        <button type="reset">Clear</button>
+        <button type="submit">Search</button>
+    </form>
+    <div class="container">
+        <div>
+            <h1>Operations</h1>
+            <button id="operations-refresh">Refresh</button>
+            <input type="checkbox" id="operation-live-update">Live-update</input>
+            <ul id="operations-list">
+            </ul>
+        </div>
+        <div>
+            <h1>Players</h1>
+            <button id="players-refresh">Refresh</button>
+            <input type="checkbox" id="player-live-update">Live-update</input>
+            <ul id="player-list">
+            </ul>
+        </div>
+    </div>
+
+    <script src="index.js" type="text/javascript" defer></script>
+</body>
+
+</html>

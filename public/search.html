@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splinterlands Search</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form method="GET" action="search.html">
+        <input type="text" name="q" />
+        <button type="reset">Clear</button>
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="loading">
+        <p>Loading...</p>
+    </div>
+
+    <div id="error" class="hidden">
+        <h1>Error</h1>
+        <span id="error-text"></span>
+    </div>
+
+    <div id="info" class="hidden">
+        <button id="refresh">Refresh</button>
+        <h1>Player id</h1>
+        <span id="player-id"></span>
+
+        <div>
+            <h1>Operations</h1>
+            <div id="operations-list" class="player-operations"></div>
+        </div>
+    </div>
+
+    <script src="search.js" type="text/javascript" defer></script>
+</body>
+
+</html>

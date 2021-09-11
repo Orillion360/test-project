@@ -1,0 +1,30 @@
+.container {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    display: flex;
+    padding: 0px 20px;
+}
+
+.container > div {
+    flex-grow: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.player-operations {
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.player-operations > div {
+    flex-flow: column wrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5px 0px;
+    border: 1px solid #00000033;
+    padding: 5px;
+}
